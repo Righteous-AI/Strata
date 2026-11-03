@@ -1,0 +1,10 @@
+# Inherited upstream test fixtures — judged synthetic by Mr Git audit 2026-11-03; PENDING HUMAN ACCEPTANCE.
+# Never used for gitleaks/secret-history rules.
+
+# 49x8 all-numeric matrix (native_experts v4, commit 65a1111e Niko1221); exactly one token
+# coincidentally matches the EG mobile pattern => benchmark data, not a stored phone number.
+PII_PHONE_EG tests/data/native_experts/coder-iq1_m.txt
+
+# Negative-path test asserting normalizeBaseUrl THROWS on credential-bearing URLs
+# (dummy user:pass + ?key=secret adversarial fixtures, commit 0b3299a0 Niko1221).
+SECRET_AUTHURL apps/host/tests/model-providers.test.mjs
