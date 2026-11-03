@@ -1,4 +1,4 @@
-# Inherited upstream test fixtures — judged synthetic by Mr Git audit 2026-11-03; PENDING HUMAN ACCEPTANCE.
+# Inherited upstream test fixtures — judged synthetic by Mr Git audit 2026-11-03; ACCEPTED by operator 2026-11-04 ("2 أيوه" via Righteous).
 # Never used for gitleaks/secret-history rules.
 
 # 49x8 all-numeric matrix (native_experts v4, commit 65a1111e Niko1221); exactly one token
